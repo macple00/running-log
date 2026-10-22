@@ -416,10 +416,8 @@
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
 <script>
 // Public by design: access is enforced by Row Level Security in supabase/migrations.
-const SUPABASE_URL = 'https://hlcllhimkqkeofsbpvji.supabase.co/rest/v1/
-';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhsY2xsaGlta3FrZW9mc2JwdmppIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI2MTAyNjYsImV4cCI6MjEwODE4NjI2Nn0.rs5wwoiVfz8OjP_xTLPKoaAVPaB37Xqb2NYpPgsSDYs
-';
+const SUPABASE_URL = 'https://hlcllhimkqkeofsbpvji.supabase.co/rest/v1/';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhsY2xsaGlta3FrZW9mc2JwdmppIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI2MTAyNjYsImV4cCI6MjEwODE4NjI2Nn0.rs5wwoiVfz8OjP_xTLPKoaAVPaB37Xqb2NYpPgsSDYs';
 const sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 window.sb = sb; // used for manual testing from the console
 
